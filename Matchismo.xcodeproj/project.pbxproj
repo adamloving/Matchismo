@@ -15,7 +15,6 @@
 		66A398851839BD37009CA19B /* CardGameAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 66A398841839BD37009CA19B /* CardGameAppDelegate.m */; };
 		66A398881839BD37009CA19B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66A398861839BD37009CA19B /* Main.storyboard */; };
 		66A3988B1839BD37009CA19B /* CardGameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 66A3988A1839BD37009CA19B /* CardGameViewController.m */; };
-		66A3988D1839BD37009CA19B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66A3988C1839BD37009CA19B /* Images.xcassets */; };
 		66A398941839BD37009CA19B /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66A398931839BD37009CA19B /* XCTest.framework */; };
 		66A398951839BD37009CA19B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66A398741839BD37009CA19B /* Foundation.framework */; };
 		66A398961839BD37009CA19B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66A398781839BD37009CA19B /* UIKit.framework */; };
