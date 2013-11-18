@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		669080841839BF7800DF0894 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 669080831839BF7800DF0894 /* Images.xcassets */; };
 		66A398751839BD37009CA19B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66A398741839BD37009CA19B /* Foundation.framework */; };
 		66A398771839BD37009CA19B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66A398761839BD37009CA19B /* CoreGraphics.framework */; };
 		66A398791839BD37009CA19B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66A398781839BD37009CA19B /* UIKit.framework */; };
@@ -33,6 +34,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		669080831839BF7800DF0894 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		66A398711839BD37009CA19B /* Matchismo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Matchismo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		66A398741839BD37009CA19B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		66A398761839BD37009CA19B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -46,7 +48,6 @@
 		66A398871839BD37009CA19B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		66A398891839BD37009CA19B /* CardGameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CardGameViewController.h; sourceTree = "<group>"; };
 		66A3988A1839BD37009CA19B /* CardGameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CardGameViewController.m; sourceTree = "<group>"; };
-		66A3988C1839BD37009CA19B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		66A398921839BD37009CA19B /* MatchismoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MatchismoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		66A398931839BD37009CA19B /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		66A3989B1839BD37009CA19B /* MatchismoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MatchismoTests-Info.plist"; sourceTree = "<group>"; };
@@ -116,7 +117,7 @@
 				66A398861839BD37009CA19B /* Main.storyboard */,
 				66A398891839BD37009CA19B /* CardGameViewController.h */,
 				66A3988A1839BD37009CA19B /* CardGameViewController.m */,
-				66A3988C1839BD37009CA19B /* Images.xcassets */,
+				669080831839BF7800DF0894 /* Images.xcassets */,
 				66A3987B1839BD37009CA19B /* Supporting Files */,
 			);
 			path = Matchismo;
@@ -228,7 +229,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				66A3988D1839BD37009CA19B /* Images.xcassets in Resources */,
+				669080841839BF7800DF0894 /* Images.xcassets in Resources */,
 				66A3987F1839BD37009CA19B /* InfoPlist.strings in Resources */,
 				66A398881839BD37009CA19B /* Main.storyboard in Resources */,
 			);
@@ -460,6 +461,7 @@
 				66A398A51839BD37009CA19B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		66A398A61839BD37009CA19B /* Build configuration list for PBXNativeTarget "MatchismoTests" */ = {
 			isa = XCConfigurationList;
@@ -468,6 +470,7 @@
 				66A398A81839BD37009CA19B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
